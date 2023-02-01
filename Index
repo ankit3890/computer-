@@ -1,0 +1,118 @@
+<html>
+
+<head>
+
+  <title>Birthday Party Invitation</title>
+
+  <style>
+
+    /* Add some styles to decorate the website */
+
+    body {
+
+      background-color: lightblue;
+
+      text-align: center;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    h1 {
+
+      color: white;
+
+      margin-top: 50px;
+
+    }
+
+    form {
+
+      background-color: white;
+
+      padding: 20px;
+
+      border-radius: 10px;
+
+      box-shadow: 2px 2px 10px gray;
+
+      margin-top: 50px;
+
+    }
+
+    label, input[type="text"], input[type="submit"] {
+
+      display: block;
+
+      margin: 20px auto;
+
+      width: 50%;
+
+    }
+
+    input[type="submit"] {
+
+      background-color: lightgreen;
+
+      color: white;
+
+      padding: 10px;
+
+      border-radius: 5px;
+
+      cursor: pointer;
+
+    }
+
+    /* Add some animations to make the website more attractive */
+
+    form {
+
+      animation: fadeIn 1s ease-in-out;
+
+    }
+
+    @keyframes fadeIn {
+
+      from {
+
+        opacity: 0;
+
+      }
+
+      to {
+
+        opacity: 1;
+
+      }
+
+    }
+
+    input[type="submit"]:hover {
+
+      background-color: green;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Join us for a Birthday Celebration!</h1>
+
+  <form action="">
+
+    <label for="name">Enter your name:</label>
+
+    <input type="text" id="name" name="name">
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+
+</html>
+
